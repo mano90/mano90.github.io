@@ -1,0 +1,13 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.example.yourapp
+productName: YourAppName
+files:
+  - filter:
+      - dist/**/*
+      - electron/**/*
+win:
+  target:
+    - nsis
+electronVersion: 32.1.2
